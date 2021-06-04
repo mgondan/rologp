@@ -1,4 +1,4 @@
 :- module(rologp, []).
-:- reexport([rologpp]).
+:- reexport([library(rologpp)]).
 
 :- initialization(r_init).
